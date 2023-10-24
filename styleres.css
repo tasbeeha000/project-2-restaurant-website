@@ -1,0 +1,677 @@
+@font-face {
+    font-family:grand;
+    src: url(GrandHotel-Regular.otf);
+}
+@font-face {
+    font-family:superba;
+    src: url(SuperbaBold.ttf);
+}
+
+body{
+   overflow-x: hidden;
+}
+
+.section-padding{
+    padding: 70px 0px;
+}
+
+.bg-color{
+    background-color: #FABF01;
+    
+
+}
+.bg-color-2{
+    background-color: #2F2F2F;
+}
+
+/* navbar section */
+
+.nav-item a{
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.bg-img{
+
+    background-image: url(images/homeimg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+  
+}
+.nav-design{
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.9);
+    width: 100vw;
+ 
+   
+}
+.nav-design:hover{
+
+    color: #000000;
+    box-shadow: none;
+    cursor: pointer;
+    
+
+}
+.nav-item i{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item i:hover{
+  color:#000000;
+}
+
+/* home section */
+
+.title-sec{
+    margin-top: 180px;
+
+}
+.home-des{
+    width: 60%;
+	margin: auto;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+   
+
+}
+
+.title-head{
+    font-family:grand;
+    color:#FABF01;
+    font-size: 150px;
+    transition: 0.3s;
+
+
+
+
+}
+.title-head:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.btn-home{
+    color: rgb(0, 0, 0);
+    background-color:#FABF01 ;
+    padding: 5px 20px 5px 20px;
+font-size: 20px;
+font-weight: 700;
+margin-top: 10px;
+border: none;
+box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.4);
+border-radius:8px ;
+ transition: 0.3s;
+
+
+}
+.btn-home:hover{
+
+    cursor: pointer;
+    padding: 5px 30px; /* Increase the padding to adjust the width */
+    font-size: 22px;
+
+
+}
+
+/* best seller section */
+
+
+
+.best-sec-text{
+    color: black;
+    font-size: 75px;
+    font-family: grand;
+    transition: 0.3s;
+
+}
+.best-sec-text:hover{
+   
+    transform: scale(1.1);
+   
+
+}
+
+
+
+
+
+.best-sec h5{
+    color: black;
+    font-size: 40px;
+    font-family: grand;
+
+}
+.best-sec p{
+    color: black;
+    font-size: 20px;
+
+
+}
+.best-sec .card{
+	box-shadow: 15px 15px 40px rgba(0,0,0,0.13);
+}
+
+
+/* oriental section */
+
+
+.bg-oriental{
+    background-image: url(images/orientalBackground.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+
+
+.text-oriental{
+    font-family:grand;
+    color:#FABF01;
+    font-size: 130px;
+    transition:transform 0.3s;
+
+}
+.text-oriental:hover{
+  transform: scale(1.1);
+}
+.oriental-sec p{
+    color:white;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 60%;
+
+
+
+}
+.oriental-text-sec{
+ margin-top: 100px;
+}
+
+/* stats section */
+
+.bg-img-stats{
+ background-color: #2F2F2F;
+ z-index: -1;
+ 
+}
+
+.stat-sec:before{
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 100;
+	left: 0;
+	background-image: url(images/title_background.png);
+    background-size:cover;
+    opacity: 0.4;
+	z-index: 4;
+}
+
+.statistics-text{
+    margin-top: 100px;
+    font-family:grand;
+    color:#FABF01;
+    font-size: 120px;
+}
+.statistics-text:hover{
+  color:beige;
+  cursor: pointer;
+
+}
+
+
+.stat-sec p{
+    color:white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+
+}
+
+.stats-1{
+    position: relative;
+    width: 200px; /* Set the width and height to the same value to create a circle */
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 50%;
+   
+}
+
+.stats-text{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+   align-items: center;
+   
+
+}
+.stats-span{
+    text-align: center;
+}
+
+
+
+
+
+
+.stats-text p{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+
+}
+.stats-text h2{
+    color:#FABF01;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+
+}
+
+/* chicken section */
+
+.bg-chicken{
+    
+    background-image: url(images/orientalBackground2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: 7;
+
+}
+
+.chicken-text-sec{
+    margin-top:500px;
+}
+
+
+.chicken-text-sec p{
+    color:white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+}
+.chicken-img{
+    margin-top:590px;
+  margin-left: 100px;
+}
+
+.chicken-sec:before{
+    content:'';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 100;
+	left: 0;
+	background-image: url(images/title_background.png);
+    background-size:cover;
+    opacity: 0.4;
+	z-index: 4;
+
+}
+/* 
+chefs section */
+
+.img-area{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.chefs .card{
+	box-shadow: 15px 15px 40px rgba(0,0,0,0.13);
+}
+
+
+
+.chef-text{
+    font-size: 27px;
+
+}
+.chef-text:hover{
+   color: #FABF01;
+
+}
+
+
+
+.chefs h2{
+    color: black;
+    font-size: 75px;
+    font-family: grand;
+
+   
+
+}
+.chefs p{
+    color: black;
+    font-size: 20px;
+ 
+
+
+
+}
+
+/* lenore field section */
+
+
+.img-quote{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+   
+
+}
+.quote-sec-text{
+
+    position: absolute;
+    top: 50%; /* Adjust the vertical position as needed */
+    left: 50%; /* Adjust the horizontal position as needed */
+    transform: translate(-50%, -50%);
+}
+.quote-sec-text p{
+
+    color:rgb(7, 7, 7);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+
+}
+
+.quote-sec-text h1{
+    font-family:grand;
+    color:#0b0b0b;
+    font-size: 27px;
+  
+
+  
+}
+ .img-area:before{
+    content:'';
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 100;
+	left: 0;
+	background-color:#FABF01 ;
+    background-size:cover;
+    opacity: 0.8;
+    /* object-fit: contain; */
+} 
+
+/* subscribe section */
+
+.sub-input-sec{
+    display: flex;
+    justify-content: center;
+}
+.sub-sec h4{
+    
+    font-family:grand;
+    color:#000000;
+    font-size: 100px;
+  
+
+}
+
+
+
+.sub-sec p{
+    color:rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+}
+
+
+.input-bar-long{
+    width: 50vw;
+   border: none;
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.9);
+    padding: 11px;
+
+
+  
+}
+
+.btn-sub{
+    background-color: #FABF01;
+    color: black;
+    font-weight: 800;
+    font-family: sans-serif;
+    border: none;
+    padding: 11px;
+    margin-left: -10px;
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.10);
+
+
+
+}
+
+.bg-sub{
+    background-image: url(images/title_background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+/* footer section */
+
+.bg-color-footer{
+    background-color:#FABF01;
+    
+}
+
+.footer-sec h4{
+    color: rgb(17, 17, 17);
+    font-size: 23px;
+   
+
+}
+
+.footer-sec p{
+    font-family: sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 19px;
+   
+
+}
+
+.footer-sec i{
+ 
+    font-size: 27px;
+    transition: 0.3s;
+   
+
+}
+.footer-sec i:hover{
+    font-size: 34px;
+    cursor: pointer;
+}
+
+/* hover effect section */
+
+.parent{
+	
+	overflow:hidden;
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+
+}
+.child{
+
+	background-size:cover;
+	transition:all 0.1s;
+ }
+
+ .parent:hover .child{
+	transform: scale(1.1);
+ }
+
+
+ .iconEffect{
+    font-size: 25px;
+    transition: 0.3s;
+ 
+}
+
+.iconEffect:hover{
+    font-size: 39px;
+    color: #FABF01;
+
+}
+
+
+
+
+
+/* responsive css */
+@media only screen and (min-width:768px) and(max-width:991px) {
+
+
+	
+	.home-des{
+		width: 100%;
+	
+	}
+}
+
+@media screen  and (max-width:767px){
+	.navbar-nav{
+		margin-top: 5px;
+        font-size: 20px;
+	}
+    
+    .logo-img{
+        width: 120px;
+    }
+   
+	
+.title-sec{
+    margin-top: 180px;
+
+
+}
+.oriental-img{
+    width: 270px;
+    height: 270px;
+
+  
+}
+.chicken-img{
+    width: 270px;
+    height: 270px;
+    margin-left: 21px;
+ 
+
+}
+
+.title-head{
+font-size:65px ;
+
+
+}
+
+.home-des{
+	width: 70%;
+	line-height: 21px;
+	font-size: 19px;
+    text-align: center
+}
+
+.btn-home{
+
+margin-bottom:  10px;
+
+}
+
+.oriental-sec h4{
+  
+    font-size: 100px;
+
+
+}
+.oriental-sec p{
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+
+
+
+}
+
+.oriental-text-sec{
+    margin-top: 30px;
+    text-align: center;
+   }
+
+
+   .stat-sec h4{
+ 
+    font-size: 100px;
+
+}
+.stat-sec p{
+   
+    font-size: 20px;
+
+
+}
+
+
+.chicken-img{
+    margin-top:190px;
+}
+.chicken-text-sec h4{
+  
+    font-size: 100px;
+  
+}
+
+.chicken-text-sec p{
+   margin-top: 20px;
+    font-size: 23px;
+
+
+
+}
+.chicken-text-sec{
+    margin-top:200px;
+}
+.chefs p{
+   
+    font-size: 18px;
+
+
+}
+
+.sub-sec p{
+    
+    font-size: 19px;
+
+}
+}
