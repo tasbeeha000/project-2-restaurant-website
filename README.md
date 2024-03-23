@@ -1,4 +1,18 @@
 # project-2-restaurant-website
+<h1>Restaurant Website</h1>
+  <p>Welcome to my Restaurant website project, your one-stop shop for delicious food! Its a visually appealing website with beautiful theme . It is reponsive suitable for all kind device integrated with Email subcribe service</p>
+
+  <h2>Features</h2>
+  <ol>
+    <li>Responsiveness</li>
+    <li>Integrated with email service API</li>
+    <li>Integrated with JS library "animate on scroll"</li>
+    <li>Added with bootstrap</li>
+    <li>User friendly</li>
+    <li>Visually apealing</li>
+  </ol>
+
+  <h2>Overview</h2>
 ![p19](https://github.com/tasbeeha000/project-2-restaurant-website/assets/137652796/666f9165-2380-443c-bbb5-82a8d45e1e16)
 ![p20](https://github.com/tasbeeha000/project-2-restaurant-website/assets/137652796/1621959e-4420-4e84-bb28-e60c96122257)
 ![p7](https://github.com/tasbeeha000/project-2-restaurant-website/assets/137652796/3b43de44-0b6e-4409-8304-97f4d143683c)
