@@ -44,8 +44,13 @@ body{
 .nav-design{
     box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.9);
     width: 100vw;
+    transition: all 0.2s;
  
    
+}
+.nav-item a{
+    font-size: 13px;
+    
 }
 .nav-design:hover{
 
@@ -441,6 +446,7 @@ chefs section */
 
 
 .input-bar-long{
+   
     width: 50vw;
    border: none;
     box-shadow: 15px 15px 40px rgba(0,0,0,0.9);
@@ -459,6 +465,16 @@ chefs section */
     padding: 11px;
     margin-left: -10px;
     box-shadow: 15px 15px 40px rgba(0,0,0,0.10);
+    transition: all  .2s ease-in-out;
+
+
+
+}
+.btn-sub:hover{
+
+    
+    padding: 14px;
+   
 
 
 
