@@ -1,6 +1,6 @@
 # project-2-restaurant-website
 <h1>Restaurant Website</h1>
-  <p>Welcome to my Restaurant website project, your one-stop shop for delicious food! Its a visually appealing website with beautiful theme . It is reponsive suitable for all kind device integrated with Email subcribe service</p>
+  <p>Welcome to my Restaurant website project, your one-stop shop for delicious food! Its a visually appealing website with beautiful theme . It is highly reponsive suitable for all kind device integrated with Email subcribe service</p>
 
   <h2>Features</h2>
   <ol>
